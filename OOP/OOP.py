@@ -63,3 +63,4 @@ print(' ')
 print(Pizza(['cheese', 'tomatoes']))
 print(' ')
 #If we have a class with a complicated __init__ method, we might want to simplify it by using @classmethods as alternative constructors
+print(Pizza.prosciutto())
