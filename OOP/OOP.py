@@ -31,7 +31,9 @@ MyClass.staticmethod() #doesnt fail
 
 
 class Pizza:
-
+    '''takes 2 main parameters;
+    radius: An integer that describes the raduis for the pizza in cm
+    ingredients: a list of strings that describe the ingredients of the pizza'''
     def __init__(self, radius, ingredients):
        self.ingredients = ingredients
        self.radius = radius
@@ -64,3 +66,4 @@ print(Pizza(['cheese', 'tomatoes']))
 print(' ')
 #If we have a class with a complicated __init__ method, we might want to simplify it by using @classmethods as alternative constructors
 print(Pizza.prosciutto())
+
